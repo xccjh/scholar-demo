@@ -1,0 +1,1 @@
+export { useSearchTableAdance } from './useSearchTableAdance'

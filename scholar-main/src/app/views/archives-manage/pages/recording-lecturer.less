@@ -1,0 +1,87 @@
+.container {
+  background-color: white;
+  overflow: hidden;
+  height: 100%;
+
+  .main-header {
+    display: flex;
+    font-size: 18px;
+    padding: 15px 20px 0 20px;
+  }
+
+  .content-header {
+    display: flex;
+    align-items: center;
+    border-bottom: 20px solid #f0f2f5;
+    padding: 20px 20px 20px;
+  }
+
+  .body-header {
+    text-align: left
+  }
+
+  .table-container {
+    height: calc(100% - 110px);
+  }
+
+}
+.teacher-preview {
+  overflow: hidden;
+
+  .list-item {
+    overflow: hidden;
+    padding: 10px 0;
+
+    .list-label {
+      float: left;
+      width: 100px;
+      padding-right: 10px;
+      vertical-align: middle;
+
+      &.pl10 {
+        padding: 0 10px;
+      }
+
+      &.mt10 {
+        margin-top: 0px;
+      }
+    }
+
+    .list-content {
+      vertical-align: middle;
+      max-width: calc(1000% - 100px);
+      float: left;
+      width: calc(100% - 100px);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      .blue-text {
+        color: #1890ff;
+        margin-left: 10px;
+
+        &:hover {
+          color: #40a9ff;
+          cursor: pointer
+        }
+      }
+
+      &.numRom {
+        white-space: normal;
+      }
+
+      .numRom {
+        display: block;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      &.pl25 {
+        padding-top: 25px;
+      }
+    }
+  }
+}
+

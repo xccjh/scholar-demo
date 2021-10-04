@@ -1,0 +1,8 @@
+export { default as ReadLib } from './read-lib/read-lib.vue'
+export { default as CaseLib } from './case-lib/case-lib.vue'
+export { default as ExerciseLib } from './exercise-lib/exercise-lib.vue'
+export { default as SaveTrain } from './save-train/save-train.vue'
+export { default as SaveMaterial } from './save-material/save-material.vue'
+export { default as CasePreview } from './case-preview/case-preview.vue'
+export { default as SaveRead } from './save-read/save-read.vue'
+export { default as SaveCase } from './save-case/save-case.vue'

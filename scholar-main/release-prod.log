@@ -1,0 +1,252 @@
+
+发布位置：html/scholar，
+发布时间：2020-08-10 11:49:04，
+发布branch: dev，
+发布commitId: d51ef88e75909a683babfc59b81547f6c9c27120，
+发布commit信息: “feat:增加分析”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-08-10 12:17:55，
+发布branch: dev，
+发布commitId: 6017b245b78bb1473b9062c0b001c022e829a63e，
+发布commit信息: “feat:babel去除console”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-08-10 12:31:24，
+发布branch: dev，
+发布commitId: 3b7db2375623037963f9a2538ff695fce07a95c8，
+发布commit信息: “fix:移除console配置更改”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-08-18 09:10:50，
+发布branch: dev，
+发布commitId: 59b24e0c01a55556a667025ca293e2eb25a08970，
+发布commit信息: “fix:课程服务商”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-08-18 09:31:52，
+发布branch: dev，
+发布commitId: 3e52f4b6b227bc050aa8472182b297d3bd66d73c，
+发布commit信息: “feat:增加清除缓存策略”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-08-18 09:46:26，
+发布branch: dev，
+发布commitId: 48c82bd67d645ce1fa23055fda6e6fadf1f50459，
+发布commit信息: “alter:生产调试”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-08-18 16:48:31，
+发布branch: dev，
+发布commitId: 1c46c0ea1659b4e8b0efbccb9fa8cada63590d4c，
+发布commit信息: “fix:debugger”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-08-18 18:49:52，
+发布branch: dev，
+发布commitId: 1141cda11edca2beee5d51ae54818a895fe28d99，
+发布commit信息: “fix:表格对其”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-08-18 19:03:30，
+发布branch: dev，
+发布commitId: cdf7a27f52b60e5a92c4b6b2674eae1a896f9222，
+发布commit信息: “fix:兼容性冲突”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-08-19 17:01:50，
+发布branch: dev，
+发布commitId: 5b988032e0f6855334f45b50ef70d4db1fe910c2，
+发布commit信息: “fix:提测细节”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-08-19 20:10:35，
+发布branch: dev，
+发布commitId: 50dd3ef6743d5a8faf120153fd0ad528b2734869，
+发布commit信息: “fix:表格样式兼容就把那浏览器”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-08-19 20:17:28，
+发布branch: dev，
+发布commitId: a47e93ebebf3f3096408baf22cf48924b19b3e49，
+发布commit信息: “alter:优化表格固定列响应拖拽”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-08-20 14:08:39，
+发布branch: dev，
+发布commitId: 40e1b576090f9367fc0d3841f14d55c4b746e9a6，
+发布commit信息: “fix:表格模板兼容性”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-08-25 16:38:36，
+发布branch: dev，
+发布commitId: cc51905209c273bb46a4b6a282ec0791a88e710a，
+发布commit信息: “fix:提测细节”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-08-25 21:40:59，
+发布branch: dev，
+发布commitId: 133935872c4313cf5ac8455e712414f90840c1ca，
+发布commit信息: “feat:增加课包反馈”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-08-31 17:40:13，
+发布branch: dev，
+发布commitId: 98953b3d6383b24dacfa8f2841871bad8f9855bc，
+发布commit信息: “fix:押题宝开关”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-08-31 21:24:50，
+发布branch: dev，
+发布commitId: 3459f6873c937f532b2260c372c8225e3b6829ac，
+发布commit信息: “feat:更换课包预览托管地址”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-08-31 21:37:05，
+发布branch: dev，
+发布commitId: cfb090e6af768af78e2b8a1db6d7bf59b8c914a0，
+发布commit信息: “fix:处理路径细节”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-09-01 11:43:17，
+发布branch: dev，
+发布commitId: 860b268e50387ea8b78468d6b117b6be9fef6bce，
+发布commit信息: “fix:会计乐实训”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-09-01 14:53:16，
+发布branch: dev，
+发布commitId: 7f336bbc8b5f85af32dbd9866532c06e5a8bc074，
+发布commit信息: “fix:登录权限限制”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-09-02 18:25:10，
+发布branch: dev，
+发布commitId: 7121e3a7694a698fff4c0de479dc0f3aed831be0，
+发布commit信息: “fix:配套题库”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-09-03 15:37:08，
+发布branch: dev，
+发布commitId: b5e9fdad9f80806659e92ab47776a6a2774552d4，
+发布commit信息: “fix:讲师反馈章节”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-09-07 19:26:27，
+发布branch: master，
+发布commitId: dfb09720473d7ed9a9232bddd99fbdee871a96dd，
+发布commit信息: “fix:树样式”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-09-07 19:31:25，
+发布branch: master，
+发布commitId: 4fec13ffc87e5278aa3a1e741a170215fc76fd55，
+发布commit信息: “style:fixbug”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-09-08 10:56:48，
+发布branch: master，
+发布commitId: 130981c5bb9c664f559773ff70a9e9ed3260c2d8，
+发布commit信息: “fix:试卷过期”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-09-08 18:32:48，
+发布branch: master，
+发布commitId: 8b8d6461cf84c4f7cff8d1d2c33cc46dc8a0d75d，
+发布commit信息: “feat:阅读库支持文件删除”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-09-09 11:22:00，
+发布branch: master，
+发布commitId: 435f7543a37f9499fc47dc3ead948f009455d594，
+发布commit信息: “fix:低版本浏览器空数据兼容”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-09-09 16:21:40，
+发布branch: master，
+发布commitId: 78745c220ea39688a065fec7db3832fbaab1e152，
+发布commit信息: “fix:wps服务初始化时机捕捉”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-09-13 18:31:00，
+发布branch: master，
+发布commitId: 19bd821c064a1a1c911e98df2882d4a5323457a4，
+发布commit信息: “alter:发布脚本”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-09-14 11:16:53，
+发布branch: master，
+发布commitId: 304700fefb2febd2ef1c9753474b0d66aaab258c，
+发布commit信息: “fix:必修任务影响”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-09-14 11:22:51，
+发布branch: master，
+发布commitId: a9b01dccec084adb4d78fb99bbfe7b1963b7b2e5，
+发布commit信息: “alter:巩固模块”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-09-14 17:26:48，
+发布branch: master，
+发布commitId: a2b9acbd48163dfaf2cb8e5578e1d39443756568，
+发布commit信息: “fix:录播导入视频”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-09-14 17:34:15，
+发布branch: master，
+发布commitId: a4e1f2d7240c529a57b08b3f96f8f1f6f9bb747e，
+发布commit信息: “fix:弹框问题”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-09-17 14:22:21，
+发布branch: master，
+发布commitId: 9a92fa4fd767bc8e493cc66a456aa6e7e9a051e0，
+发布commit信息: “alter:提交lock文件”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-09-18 18:30:16，
+发布branch: master，
+发布commitId: 4ed8b6dd0f8ebe8580586d6c955f0b42e436f821，
+发布commit信息: “fix:题库对接试卷”，
+发布人:zoujiahe
+
+发布位置：html/scholar，
+发布时间：2020-09-29 14:40:59，
+发布branch: dev，
+发布commitId: d1a40dee9ef35ac177c60ad9564ab47948b25528，
+发布commit信息: “fix:知识图谱树节点拖拽”，
+发布人:zoujiahe

@@ -1,16 +1,143 @@
 {
-  "name": "demo",
-  "version": "0.1.0",
-  "private": true,
+  "name": "qiankun-main-seeai-vue-template",
+  "version": "1.0.0",
+  "description": "整合乾坤SEEAI通用vue主应用模板",
+  "microStart": "0",
+  "mainBase": "m",
+  "mainLayoutIndex": "/course-manage/profession-list",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "install": "npm-run-all --serial install:*",
+    "start": "npm-run-all --parallel start:*",
+    "build": "npm-run-all --parallel build:*",
+    "oss:main": "cd cd scholar-main/ && npm run oss:prod",
+    "install:scholar-main": "cd scholar-main/ && yarn",
+    "start:scholar-main": "cd scholar-main/ && yarn start",
+    "build:scholar-main": "cd scholar-main/ && yarn build",
+    "install:scholar-sub": "cd scholar-sub/ && yarn",
+    "start:scholar-sub": "cd scholar-sub/ && yarn start",
+    "build:scholar-sub": "cd scholar-sub/ && yarn build",
+    "install:scholar-other-sub": "cd scholar-other-sub/ && yarn",
+    "start:scholar-other-sub": "cd scholar-other-sub/ && yarn start",
+    "build:scholar-other-sub": "cd scholar-other-sub/ && yarn build",
     "lint": "vue-cli-service lint"
+  },
+  "microAppSetting": {
+    "current": 0,
+    "port": 8300,
+    "development": [
+      {
+        "name": "scholar-sub",
+        "host": "http://localhost",
+        "port": "8301",
+        "container": "#frame",
+        "base": "/scholar-sub/#/",
+        "activeRule": "/scholar/#/scholar-sub",
+        "props": {
+          "name": "scholar-sub",
+          "action": ""
+        }
+      },
+      {
+        "name": "scholar-other-sub",
+        "host": "http://localhost",
+        "port": "8302",
+        "container": "#frame",
+        "base": "/scholar-other-sub/#/",
+        "activeRule": "/scholar/#/scholar-other-sub",
+        "props": {
+          "name": "scholar-other-sub",
+          "action": ""
+        }
+      }
+    ],
+    "test": [
+      {
+        "name": "scholar-sub",
+        "host": "http://ky.qicourse.cn",
+        "port": "80",
+        "container": "#frame",
+        "base": "/scholar-sub/#/",
+        "activeRule": "/scholar/#/scholar-sub",
+        "props": {
+          "name": "scholar-sub",
+          "action": ""
+        }
+      },
+      {
+        "name": "scholar-other-sub",
+        "host": "http://ky.qicourse.cn",
+        "port": "80",
+        "container": "#frame",
+        "base": "/scholar-other-sub/#/",
+        "activeRule": "/scholar/#/scholar-other-sub",
+        "props": {
+          "name": "scholar-other-sub",
+          "action": ""
+        }
+      }
+    ],
+    "intranet": [
+      {
+        "name": "scholar-sub",
+        "host": "https://seeai-pre.hqjy.com",
+        "port": "443",
+        "container": "#frame",
+        "base": "/scholar-sub/#/",
+        "activeRule": "/scholar/#/scholar-sub",
+        "props": {
+          "name": "scholar-sub",
+          "action": ""
+        }
+      },
+      {
+        "name": "scholar-other-sub",
+        "host": "https://seeai-pre.hqjy.com",
+        "port": "443",
+        "container": "#frame",
+        "base": "/scholar-other-sub/#/",
+        "activeRule": "/scholar/#/scholar-other-sub",
+        "props": {
+          "name": "scholar-other-sub",
+          "action": ""
+        }
+      }
+    ],
+    "production": [
+      {
+        "name": "scholar-sub",
+        "host": "https://seeai.hqjy.com",
+        "port": "443",
+        "container": "#frame",
+        "base": "/scholar-sub/#/",
+        "activeRule": "/scholar/#/scholar-sub",
+        "props": {
+          "name": "scholar-sub",
+          "action": ""
+        }
+      },
+      {
+        "name": "scholar-other-sub",
+        "host": "https://seeai.hqjy.com",
+        "port": "443",
+        "container": "#frame",
+        "base": "/scholar-other-sub/#/",
+        "activeRule": "/scholar/#/scholar-other-sub",
+        "props": {
+          "name": "scholar-other-sub",
+          "action": ""
+        }
+      }
+    ]
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
+    "qiankun": "^2.4.1",
     "vue": "^3.0.0"
   },
+  "author": "zoujiahe",
+  "license": "ISC",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
@@ -19,22 +146,39 @@
     "@vue/cli-plugin-typescript": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
     "@vue/eslint-config-standard": "^5.1.2",
     "@vue/eslint-config-typescript": "^7.0.0",
+    "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.3",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.0",
-    "eslint-plugin-vue": "^7.0.0",
+    "eslint-plugin-vue": "^6.2.2",
+    "express": "^4.17.1",
+    "file-loader": "^6.2.0",
+    "http-proxy-middleware": "^1.3.0",
     "lint-staged": "^9.5.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-loader": "^5.2.0",
     "typescript": "~4.1.5"
   },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
   "gitHooks": {
     "pre-commit": "lint-staged"
   },
   "lint-staged": {
-    "*.{js,jsx,vue,ts,tsx}": [
+    "**/src/**/*.{js,jsx,vue,ts,tsx}": [
+      "vue-cli-service lint",
+      "git add"
+    ],
+    "**/layout/**/*.{js,jsx,vue,ts,tsx}": [
       "vue-cli-service lint",
       "git add"
     ]

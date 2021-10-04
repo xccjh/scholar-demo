@@ -1,0 +1,280 @@
+.container {
+  height: 100%;
+  overflow: hidden;
+
+  ::v-deep(.course-preview-tab) {
+    height: calc(100% - 209px);
+
+    // tab内容
+    .ant-tabs-top-content {
+      height: calc(100% - 56px);
+      padding-bottom: 20px;
+
+      .course-info {
+        overflow: auto;
+      }
+
+      .right-container {
+
+        .editor-container {
+          .ant-form-item-control-wrapper {
+            max-width: calc(100% - 85px);
+
+            .ck-editor__top {
+              display: none;
+            }
+          }
+        }
+
+        .ant-form-item-control-wrapper {
+          flex: 1;
+        }
+
+        .ant-form-item {
+          margin-bottom: 14px;
+
+          .ant-form-item-label {
+            min-width: 85px;
+            text-align: right;
+          }
+        }
+      }
+    }
+
+    // 导航
+    .ant-tabs-nav-scroll {
+      text-align: left;
+    }
+
+    // 导航下课程信息
+    .ant-descriptions-view {
+
+      .ant-descriptions-item-content {
+        flex-wrap: wrap;
+      }
+
+      .introduction-preview {
+        .ant-descriptions-item-content {
+          word-break: break-all;
+        }
+      }
+
+      .ant-descriptions-item-label {
+        min-width: 106px;
+        justify-content: flex-end;
+      }
+
+      .item-member {
+        .ant-descriptions-item-content > div {
+          position: relative;
+          width: 72px;
+          height: 36px;
+          border: 1px solid #d9d9d9;
+          opacity: 1;
+          border-radius: 3px;
+          margin-right: 18px;
+          margin-bottom: 18px;
+          text-align: center;
+          line-height: 36px;
+          color: #999;
+          font-size: 14px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          padding: 0 10px;
+          vertical-align: top;
+          display: inline-block;
+        }
+      }
+
+      .img-cover {
+        .cover-image {
+          max-width: 300px;
+        }
+
+        .ant-descriptions-item-label {
+          vertical-align: top;
+        }
+      }
+
+    }
+
+  }
+
+  .knowledge-graph {
+    background-color: white;
+    height: 100%;
+    overflow: hidden;
+    display: flex;
+
+    .label-title {
+      font-size: 20px;
+    }
+
+    .left-container {
+      height: 100%;
+      border-right: 1px solid #ddd;
+      overflow-x: hidden;
+      overflow-y: auto;
+      position: relative;
+      padding: 0 20px;
+
+      .filter-container {
+        position: absolute;
+        top: 10px;
+        right: 12px;
+        cursor: pointer;
+      }
+
+      .tree-container {
+        display: inline-block;
+        margin-right: 55px;
+
+        .chapter-weight {
+          position: absolute;
+          right: -50px;
+          color: red;
+        }
+
+        .knowledge-circle {
+          display: inline-block;
+          width: 6px;
+          height: 6px;
+          background: red;
+          border-radius: 50%;
+          vertical-align: text-top;
+          margin-left: 5px;
+        }
+
+        .knowledge-star {
+          position: absolute;
+          right: -50px;
+        }
+
+      }
+
+      .right-wrap {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .right {
+        background: #fff;
+        border: 1px solid #ddd;
+        text-align: center;
+        font-size: 12px;
+        height: 20px;
+        line-height: 20px;
+      }
+    }
+
+    .right-container {
+      height: 100%;
+      overflow: auto;
+      flex: 1;
+      text-align: left;
+      padding: 0px 40px;
+
+      .knowledge-code {
+        width: 100%;
+        padding-left: 10px;
+        color: black;
+        border: 1px solid #c4c4c4;
+      }
+
+      .list-video {
+        width: 100%;
+
+        .item-left {
+          height: 65px;
+          border: 1px dashed #dbdbdb;
+          width: 185px;
+          line-height: 60px;
+          padding-left: 10px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+          margin-right: 20px;
+          display: inline-block;
+          background-color: #fafafa;
+          padding-right: 50px;
+          position: relative;
+
+          .item-text {
+            width: 140px;
+            display: inline-block;
+            height: 65px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+          }
+
+          .img-dec {
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+          }
+
+          .img-desc {
+            padding-left: 10px;
+            width: 85px;
+            display: inline-block;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            vertical-align: middle;
+          }
+
+          .br5 {
+            border-radius: 5px;
+          }
+
+          &:hover {
+            box-shadow: 0 0 10px #e1e1e1;
+          }
+
+          .anticon-eye {
+            position: absolute;
+            cursor: pointer;
+            right: 20px;
+            top: 26px;
+          }
+        }
+      }
+
+    }
+  }
+
+  .scroll-up {
+    height: 100px;
+    overflow: hidden;
+  }
+
+  .header {
+    padding: 0 20px 20px 20px;
+    border-bottom: 20px solid #f0f2f5;
+
+    .title {
+      text-align: left;
+      font-size: 20px;
+      height: 50px;
+      line-height: 50px;
+
+      .icon-expend {
+        cursor: pointer;
+        font-size: 14px;
+        transform: translateY(-3px);
+
+        &:hover {
+          transform: translateY(-5px);
+          transition: all .6s;
+          box-shadow: 0 0 10px grey;
+          border-radius: 50%;
+          padding: 1px;
+        }
+      }
+    }
+  }
+}

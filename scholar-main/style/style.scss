@@ -1,0 +1,627 @@
+html, body {
+  overflow: hidden;
+  position: relative;
+}
+
+// 登录验证文字
+.login-box {
+  .ant-form-item-explain {
+    float: left;
+    margin-bottom: 20px !important;
+  }
+}
+
+//验证文字
+.ant-form-item-explain {
+  text-align: left;
+}
+
+
+// 全局树节点文字长度限制
+.ant-tree-title {
+  .node-title {
+    max-width:200px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: bottom;
+  }
+}
+.fix-title {
+  .ant-tree-title {
+    display: inline-block;
+    max-width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+
+// 修复富文本
+.material-from {
+  .ant-form-item-control {
+    width: 0;
+  }
+
+  .case-background {
+    .ant-form-item-explain {
+      margin-top: -18px;
+    }
+  }
+}
+
+// 下拉
+.common-select {
+  width: 25%;
+  text-align: left;
+}
+
+.w100 {
+  width: 100%;
+}
+
+//列表按钮下拉三点
+.more-operate {
+  .ant-tooltip-inner {
+    background-color: white;
+  }
+
+  .ant-tooltip-arrow {
+    width: 20px;
+    height: 20px;
+
+    .ant-tooltip-arrow-content {
+      background-color: white;
+      width: 20px;
+      height: 20px;
+    }
+  }
+}
+
+// 弹框表单增加spin后保证feedback图标不错位
+.common-modal {
+  .ant-form-item-children {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+}
+
+// 表单内图标位置补正
+.scp-modal {
+  .ant-form-item-label {
+    min-width: 100px;
+  }
+}
+
+// 全局表格样式统一
+.table-container {
+  .ant-table-wrapper {
+    height: 100%;
+
+    .ant-spin-nested-loading {
+      height: 100%;
+
+      .ant-spin-container {
+        height: 100%;
+
+        .ant-table {
+          height: 100%;
+
+          .ant-table-content {
+            max-height: 100%;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+
+            .ant-table-fixed-left, .ant-table-fixed-right {
+              height: 100%;
+
+              .ant-table-body-outer {
+                height: calc(100% - 43px);
+                margin-bottom: 0 !important;
+              }
+
+              .ant-table-body-inner {
+                height: 100%;
+                margin: 0;
+              }
+            }
+
+            .ant-table-fixed-left {
+              //pointer-events: none;
+
+              .ant-table-body-inner {
+                overflow-y: hidden !important;
+              }
+            }
+
+            .ant-table-scroll {
+              flex: 1;
+              display: flex;
+              flex-direction: column;
+
+              .ant-table-body {
+                flex:1;
+                max-height: calc(100% - 43px) !important;
+              }
+            }
+
+            .ant-table-thead {
+              > tr {
+                > th {
+                  background: #f4f6fa;
+                  padding: 10px 5px;
+                }
+              }
+            }
+
+            .ant-table-tbody {
+              > tr {
+                &.ant-table-row {
+                  &:hover {
+                    > td {
+                      background: #dde0df;
+                    }
+                  }
+                }
+
+                > td {
+                  padding: 5px 5px;
+                  height: 55px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // 表格文字最多两行
+  .synopsis-text {
+    width: 100%;
+    display: -webkit-box !important;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+  }
+
+}
+
+// 全局表格hover
+.table-container {
+  .ant-table-wrapper {
+    .ant-spin-nested-loading {
+      .ant-spin-container {
+        .ant-table {
+          &:hover {
+            .ant-table-body, .ant-table-body-inner {
+              &::-webkit-scrollbar-thumb {
+                background: #e0d7d7;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// 全局滚动条优化
+.main-content, .ant-table-body, .ant-table-body-inner, .left-container,
+.right, .middle, .left, .right-container, .ant-select-dropdown, .ant-input,
+.sub-container, .table-container, .ant-tabs-card,
+.tree-right, .tree-left, .course-info, .ant-modal-body, .item-member-container, .lesson-structure ,.ant-dropdown{
+  &::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+
+  &::-webkit-scrollbar-track {
+    width: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background: transparent;
+  }
+}
+
+.main-content, .left-container, .right-container,
+.left, .right, .middle, .ant-select-dropdown, .ant-input,
+.sub-container, .table-container, .ant-tabs-card,
+.tree-right, .tree-left, .course-info, .ant-modal-body, .item-member-container, .lesson-structure,.ant-dropdown {
+  &:hover {
+    &::-webkit-scrollbar-thumb {
+      background: #e0d7d7;
+    }
+  }
+}
+
+// 课包所属校区抽屉按钮
+.submit-button {
+  border-top: 1px solid #f0f0f0;
+  height: 60px;
+  line-height: 60px;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  position: fixed;
+  width: 500px;
+}
+
+
+//指引图标
+.font-question {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  background-color: #1890ff;
+  border-radius: 50%;
+  vertical-align: bottom;
+}
+
+.font-question-fill {
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  margin: 0 10px;
+  background-color: #1890ff;
+  border-radius: 50%;
+}
+
+// 公共预览关闭提升
+.preview-modal {
+  .ant-modal-close {
+    z-index: 9999;
+  }
+
+  .ant-modal-content {
+    overflow: hidden;
+
+    .preview-container-pic {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+
+      & > div {
+        width: 100vw;
+        height: 100vh;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
+
+    .preview-container {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .fullscreen {
+    position: absolute;
+    top: 18px;
+    right: 56px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+
+  .preview-dialog {
+    height: 100%;
+    top: 0;
+    padding-bottom: 0;
+
+    .ant-modal-content {
+      height: 100%;
+    }
+  }
+}
+
+// 成员弹框定制
+.member-modal {
+  .button-operating {
+    padding: 27px 30px;
+    background: white;
+
+    .button-input {
+      background: #F8F8F8;
+      border: 1px solid #F1F1F1;
+      opacity: 1;
+      border-radius: 4px;
+      width: 300px;
+      height: 30px;
+      font-size: 14px;
+      font-family: MicrosoftYaHei;
+      line-height: 17px;
+      color: #A3ABB8;
+      opacity: 1;
+      margin: 0 12px 0 0;
+    }
+
+    .button-seach {
+      border-radius: 4px;
+    }
+  }
+
+  .item-member-container {
+    padding: 0 30px;
+    max-height: 408px;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    .item-content {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+
+      .item-label {
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 18px;
+        font-size: 14px;
+        font-family: Microsoft YaHei;
+        font-weight: 400;
+        line-height: 21px;
+        color: #3A3C42;
+        opacity: 1;
+
+        .label-text {
+          padding-right: 6px;
+        }
+
+        .up-icon, .down-icon {
+          cursor: pointer;
+          transform: scale(1, .7);
+          vertical-align: middle;
+        }
+      }
+
+    }
+
+    .item-member {
+      padding: 0 10px;
+      cursor: pointer;
+      position: relative;
+      width: 72px;
+      height: 36px;
+      border: 1px solid #d9d9d9;
+      opacity: 1;
+      border-radius: 3px;
+      margin-right: 18px;
+      text-align: center;
+      line-height: 36px;
+      font-size: 14px;
+      margin-bottom: 33px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      background: #f6f6f6;
+      opacity: 1;
+      border-radius: 3px;
+      font-family: MicrosoftYaHei;
+      color: #999;
+
+      .cross {
+        cursor: pointer;
+        color: white;
+        text-align: center;
+        line-height: 20px;
+        font-size: 15px;
+        border-radius: 50%;
+        position: absolute;
+        width: 24px;
+        height: 24px;
+        top: -12px;
+        right: -12px;
+        background: #FC3F4C;
+        opacity: 1;
+        transform: scale(0.5);
+
+        &:hover {
+          transform: scale(0.6);
+          box-shadow: 0 0 5px #FC3F4C;
+        }
+      }
+
+      &.select {
+        background: #e5efff;
+        opacity: 1;
+        border-radius: 3px;
+        color: #4389FF;
+        border: 1px solid #37a3ff;
+      }
+    }
+
+  }
+
+  .button-container {
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    background: #FFF;
+    box-shadow: 0px -3px 18px rgba(0, 0, 0, 0.12);
+    opacity: 1;
+
+    .cancel {
+      margin-right: 18px;
+      width: 114px;
+      height: 36px;
+      font-size: 16px;
+      font-family: Microsoft YaHei;
+      font-weight: 400;
+      line-height: 21px;
+      color: #4389FF;
+      opacity: 1;
+      border: 1px solid #4389FF;
+      opacity: 1;
+      border-radius: 4px;
+    }
+
+    .comfirm {
+      width: 114px;
+      border-radius: 4px;
+      background: #4389FF;
+      opacity: 1;
+      height: 36px;
+      font-size: 16px;
+      font-family: Microsoft YaHei;
+      font-weight: 400;
+      line-height: 21px;
+      color: #FFFFFF;
+      opacity: 1;
+    }
+  }
+
+}
+
+// 课包主讲义关联任务定制
+.associate-modal {
+  .associate {
+    overflow: hidden;
+    padding-bottom: 10px;
+    margin-top: -20px;
+    border-bottom: 1px solid gray;
+
+  }
+
+  .association-table {
+    padding: 10px 0px;
+
+    .association-list {
+      transition: all .3s;
+      overflow: hidden;
+
+      &.h0 {
+        height: 0;
+      }
+
+      .list-item {
+        overflow: hidden;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+// wps查询事件穿透
+.web-office-default-container {
+  pointer-events: none;
+}
+
+// 分页条距离表格上下布局
+.container .content {
+  height: calc(100% - 100px);
+}
+
+
+// 课程建设导入图谱上传弹框
+.import-atlas-upload {
+  .ant-upload {
+    margin-bottom: 38px;
+  }
+}
+// 自定义列容器
+.checkbox-container {
+  background: white;
+  border-radius: 5px;
+  padding: 6px 12px;
+  box-shadow: 0 0 10px #dfdfdf;
+}
+
+.fl {
+  float: left;
+}
+
+.fr {
+  float: right;
+}
+
+.mr20 {
+  margin-right: 20px !important;
+}
+
+
+.mt3 {
+  margin-top:3px!important;
+}
+.fs18 {
+  font-size: 18px !important;
+}
+
+.mt5 {
+  margin-top: 5px !important;
+}
+
+.tr {
+  text-align: right!important;
+}
+
+.tl {
+  text-align: left !important;
+}
+
+.light-color {
+  color: red !important;;
+}
+
+.gray-color {
+  color: #d9d9d9 !important;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 50%;
+
+  &.red {
+    background-color: #ff0000;
+  }
+
+  &.green {
+    background-color: #2eba07;
+  }
+}
+
+
+.red {
+  color: #fe5500
+}
+
+.green {
+  color: #2eba07
+}
+
+.orange {
+  color: #fa7d00
+}
+
+
+.mr0 {
+  margin-right: 0 !important;
+}
+.mt15 {
+  margin-top: 15px !important;
+}
+
+.pr0 {
+  padding-right: 0 !important;
+}
+
+.pb60 {
+  padding-bottom: 60px !important;
+}
+.pr10 {
+  padding-right: 10px!important;
+}
