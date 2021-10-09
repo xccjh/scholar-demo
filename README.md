@@ -1,8 +1,13 @@
 ## SEEAI教研PC端
-作为微服务主应用启动,公共预览调用ky-file-web微应用
+作为微服务主应用启动,公共预览调用ky-viewer-react微应用
+
+提供给教研老师做课程，学科，课包资源建设，以及讲师管理，和对接各实训系统，题库系统，控制教务端讲师端学员端等的资源开关，提供资源日志统计功能等。
+
+![](https://xccjhzjh.oss-cn-hongkong.aliyuncs.com/xccjh-images/seeai-tempalte-demo.gif)
 
 ## 技术栈
-vue3+typescript+antd+qiankun
+[vue3](https://v3.cn.vuejs.org/)+[typescript](https://www.tslang.cn/)+[ant-design-vue](https://2x.antdv.com/components/overview-cn/)+[qiankun](https://qiankun.umijs.org/zh)+ [ckeditor5-xccjh](https://gitee.com/xccjh/ckeditor5-xccjh) + [vue3-theme-peel](https://gitee.com/xccjh/vue3-theme-peel) + 
+[vue3-draggable-drop](https://gitee.com/xccjh/vue3-draggable-drop)
 
 ## 项目运行
 1. 拉取代码 git clone https://gitee.com/qi-course/ky-scholar-web-vue.git
@@ -313,11 +318,15 @@ fix: 修正学习中心跳转链接错误
 3. 后台：黎扬荣，唐赞勇，高道马，周瑜鸿，王吕伊华，陈康明
 4. 前端：邹家和，叶雷，马景文，谭宇栩，郑佳锚，李德南，梁国泉
 
-### 前端各板块负责人
+## 前端各板块负责人
 1. 教务工作台：郑佳锚，梁国泉
 2. 教研工作台：邹家和
-3. 运营工作台：马景文，郑佳锚
-4. 讲师端：李德南，谭宇栩
+3. 运营工作台：邹家和，马景文，郑佳锚
+4. 讲师端：邹家和，李德南，谭宇栩
 5. 学员PC端：马景文，邹家和，谭宇栩
-6. 学员H5端：叶雷，邹家和，苏善泳
+6. 学员H5端：邹家和，叶雷，苏善泳
 7. 剧本平台：郑光勇
+
+## seeai技术转型方案
+
+![](https://oss.xccjh.top/vuebloger/img/post/Snipaste_2021-06-15_16-57-39.png)
