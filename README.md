@@ -1,9 +1,9 @@
 ## SEEAI教研PC端
 作为微服务主应用启动,公共预览调用ky-viewer-react微应用
 
-提供给教研老师做课程，学科，课包资源建设，以及讲师管理，和对接各实训系统，题库系统，控制教务端讲师端学员端等的资源开关，提供资源日志统计功能等。
-
 ![](https://xccjhzjh.oss-cn-hongkong.aliyuncs.com/xccjh-images/seeai-tempalte-demo.gif)
+
+提供给教研老师做课程，学科，课包资源建设，以及讲师管理，和对接各实训系统，题库系统，控制教务端讲师端学员端等的资源开关，提供资源日志统计功能等。
 
 ## 技术栈
 [vue3](https://v3.cn.vuejs.org/)+[typescript](https://www.tslang.cn/)+[ant-design-vue](https://2x.antdv.com/components/overview-cn/)+[qiankun](https://qiankun.umijs.org/zh)+ [ckeditor5-xccjh](https://gitee.com/xccjh/ckeditor5-xccjh) + [vue3-theme-peel](https://gitee.com/xccjh/vue3-theme-peel) + 
